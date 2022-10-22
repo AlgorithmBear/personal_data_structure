@@ -24,6 +24,7 @@
     <ProjectGuid>{9c91844f-7771-4658-8787-d85b7f0f11c9}</ProjectGuid>
     <RootNamespace>LList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>myDataStructure</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -132,7 +133,6 @@
     <ClInclude Include="LLink.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="link.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
